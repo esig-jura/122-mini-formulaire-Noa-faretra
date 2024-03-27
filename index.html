@@ -22,22 +22,31 @@
 <form action="https://kode.ch/getpost/">
     <ul class="form">
         <li>
-        <label for="email">E-Mail</label>
-        <input id="email" type="email" name="email">
+            <label for="ap">Arrière-plan</label>
+            <select id="ap" name="ap">
+                <option value="1.jpg">Arrière-Plan 1</option>
+                <option value="2.jpg">Arrière-Plan 2</option>
+                <option value="3.jpg" selected>Arrière-Plan 3</option>
+            </select>
+
+        </li>
+        <li>
+            <label for="email">E-Mail</label>
+            <input id="email" type="email" name="email" autofocus required placeholder="Adresse Mail">
         </li>
 
         <li>
-    <label for="mdp">Mot de passe</label>
-    <input id="mdp" type="password" name="mdp">
+            <label for="mdp">Mot de passe</label>
+            <input id="mdp" type="password" name="mdp" required placeholder="Mot de passe">
         </li>
 
         <li>
-    <label for="mdpC">Confirmer Mot de passe</label>
-    <input id="mdpC" type="password" name="mdpC">
+            <label for="mdpC">Confirmer Mot de passe</label>
+            <input id="mdpC" type="password" name="mdpC" required placeholder="Confirmer le mot de passe">
         </li>
 
         <li>
-    <button>Créer un compte</button>
+            <button>Créer un compte</button>
         </li>
     </ul>
 
