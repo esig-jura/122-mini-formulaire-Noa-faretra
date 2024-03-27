@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Mini Form</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"/>
     <!-- CSS -->
     <link rel="stylesheet" href="./css/normalize.css"> <!-- https://necolas.github.io/normalize.css/ -->
     <link rel="stylesheet" href="./css/main.css">
@@ -18,6 +18,30 @@
 
 <h1>Mini Form</h1>
 <!-- VOTRE FORMULAIRE -->
+
+<form action="https://kode.ch/getpost/">
+    <ul class="form">
+        <li>
+        <label for="email">E-Mail</label>
+        <input id="email" type="email" name="email">
+        </li>
+
+        <li>
+    <label for="mdp">Mot de passe</label>
+    <input id="mdp" type="password" name="mdp">
+        </li>
+
+        <li>
+    <label for="mdpC">Confirmer Mot de passe</label>
+    <input id="mdpC" type="password" name="mdpC">
+        </li>
+
+        <li>
+    <button>Créer un compte</button>
+        </li>
+    </ul>
+
+</form>
 <script src="js/main.js"></script>
 </body>
 </html>
