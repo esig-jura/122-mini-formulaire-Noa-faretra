@@ -11,7 +11,9 @@ console.log('Test liaison JS');
 const formulaire = document.querySelector('form');
 const txtMDP = document.querySelector('#mdp');
 const txtMDPConfirm = document.getElementById('mdpC');
-console.log(formulaire, txtMDP,txtMDPConfirm);
+const listeAP = document.querySelector('#ap')
+const body = document.querySelector('#body')
+console.log(formulaire, txtMDP,txtMDPConfirm, listeAP);
 
 //Ecouter l'envoie du formulaire
 formulaire.addEventListener('submit',(event)=>{
@@ -44,4 +46,11 @@ formulaire.addEventListener('submit',(event)=>{
 alert('Comptes crée avec succès !');
 //envoie le formulaire
 formulaire.submit();
+});
+
+//ecouter le chagement de valeur dans la liste déroulante
+
+listeAP.addEventListener('change', ()=>{
+   //remplacer l'image de fond du body
+
 });
