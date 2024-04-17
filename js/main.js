@@ -52,5 +52,6 @@ formulaire.submit();
 
 listeAP.addEventListener('change', ()=>{
    //remplacer l'image de fond du body
+    body.style.backgroundImage = 'url(./img/backgrounds/' + listeAP.value+')';
 
 });
