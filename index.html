@@ -19,7 +19,8 @@
 <h1>Mini Form</h1>
 <!-- VOTRE FORMULAIRE -->
 
-<form action="https://kode.ch/getpost/">
+<form action="https://kode.ch/getpost/" method="post">
+    <!--           ici on va faire la partie arriète plan-->
     <ul class="form">
         <li>
             <label for="ap">Arrière-plan</label>
@@ -29,6 +30,7 @@
                 <option value="3.jpg" selected>Arrière-Plan 3</option>
             </select>
         </li>
+        <!--Ici on s'occupe de la selection du genre et de crée une sorte de petite case-->
         <li>
             <fieldset>
                 <legend>Genre</legend>
@@ -49,17 +51,25 @@
         </li>
         <li>
             <label for="email">E-Mail</label>
-            <input id="email" type="email" name="email" autofocus required placeholder="Adresse Mail">
+            <input id="email" type="email" name="email"
+                   autofocus
+                   required
+                   placeholder="Adresse Mail">
+
         </li>
 
         <li>
             <label for="mdp">Mot de passe</label>
-            <input id="mdp" type="password" name="mdp" required placeholder="Mot de passe">
+            <input id="mdp" type="password" name="mdp"
+                   required
+                   placeholder="Mot de passe">
         </li>
 
         <li>
             <label for="mdpC">Confirmer Mot de passe</label>
-            <input id="mdpC" type="password" name="mdpC" required placeholder="Confirmer le mot de passe">
+            <input id="mdpC" type="password" name="mdpC"
+                   required
+                   placeholder="Confirmer le mot de passe">
         </li>
 
         <li>

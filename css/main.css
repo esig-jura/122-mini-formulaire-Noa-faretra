@@ -72,6 +72,24 @@ form label {
     font-weight: bold;
     cursor: pointer;
 }
+form label input{
+    display: inline;
+    width: auto;
+}
+form fieldset label {
+    display: inline;
+    margin-right: 1em;
+}
+
+form fieldset {
+    padding: 1em;
+    border: 2px solid #2c3e50;
+}
+
+form fieldset legend {
+    font-weight: bold;
+    padding: 0 0.5em;
+}
 
 form input,
 form select{
