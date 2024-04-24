@@ -11,9 +11,9 @@ console.log('Test liaison JS');
 const formulaire = document.querySelector('form');
 const txtMDP = document.querySelector('#mdp');
 const txtMDPConfirm = document.getElementById('mdpC');
-const listeAP = document.querySelector('#ap')
+const Backgrounds = document.querySelector('#Backgrounds')
 const body = document.querySelector('#body')
-console.log(formulaire, txtMDP,txtMDPConfirm, listeAP);
+console.log(formulaire, txtMDP,txtMDPConfirm, Backgrounds);
 
 //Ecouter l'envoie du formulaire
 formulaire.addEventListener('submit',(event)=>{
@@ -50,8 +50,8 @@ formulaire.submit();
 
 //ecouter le chagement de valeur dans la liste déroulante
 
-listeAP.addEventListener('change', ()=>{
+Backgrounds.addEventListener('change', ()=>{
    //remplacer l'image de fond du body
-    body.style.backgroundImage = 'url(./img/backgrounds/' + listeAP.value+')';
+    body.style.backgroundImage = 'url(./img/backgrounds/' + Backgrounds.value+')';
 
 });
